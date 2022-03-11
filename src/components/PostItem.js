@@ -17,6 +17,7 @@ const PostItem = ({ post, number, removePost }) => {
             </div>
 
             <div className="post__btns">
+                <MyButton onClick={onClickDelete} >Открыть</MyButton>
                 <MyButton onClick={onClickDelete} >Удалить</MyButton>
             </div>
         </div>
