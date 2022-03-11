@@ -21,3 +21,33 @@
   border: 2px solid teal;
   margin-top: 15px;
 }
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+.page__wrapper {
+  margin-top: 30px;
+}
+
+.page {
+  border: 2px solid black;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.current__page {
+  border: 2px solid rgb(230, 10, 10);
+  font-weight: bold;
+}
