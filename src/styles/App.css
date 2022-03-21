@@ -64,6 +64,8 @@
   width: 60%;
   border-radius: 5px;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar__links {

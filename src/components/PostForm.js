@@ -28,7 +28,6 @@ const PostForm = ({ addPost }) => {
             // title: post.title,
             // body: post.body,
             ...post,
-
             id: Date.now()
         }
         addPost(newPost)
